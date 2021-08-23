@@ -339,7 +339,7 @@ span.legenda {
 }
 .img-2 { 
     grid-area: img-2;
-    background-image: url("./Images/makingof/processo\ logo.png");
+    background-image: url("./Images/makingof/processo/logo.png");
     background-size: cover;
 }
 .img-3 { 
