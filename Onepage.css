@@ -243,24 +243,24 @@ body{
 }
 
 .gallery-1 {
-    background-image: url("./images/galeria/moradianatural.jpg");
+    background-image: url("./Images/galeria/moradianatural.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .gallery-2 {
-    background-image: url("./images/galeria/folhares.jpg");
+    background-image: url("./Images/galeria/folhares.jpg");
     background-size: cover;
 }
 
 .gallery-3 {
-    background-image: url("./images/galeria/ooutro.jpg");
+    background-image: url("./Images/galeria/ooutro.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .gallery-4 {
-    background-image: url("./images/galeria/realidadeparalela.jpg");
+    background-image: url("./Images/galeria/realidadeparalela.jpg");
     background-size: cover;
 }
 
@@ -275,7 +275,7 @@ body{
 }
 
 .gallery-7 {
-    background-image: url("./images/galeria/humansintese.jpg");
+    background-image: url("./Images/galeria/humansintese.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -287,12 +287,12 @@ body{
 }
 
 .gallery-9 {
-    background-image: url("./images/galeria/moradia.jpg");
+    background-image: url("./Images/galeria/moradia.jpg");
     background-size: cover;
 }
 
 .gallery-10 {
-    background-image: url("./images/galeria/respiro.jpg");
+    background-image: url("./Images/galeria/respiro.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -334,22 +334,22 @@ span.legenda {
 }
 .img-1 {
     grid-area: img-1;
-    background-image: url("./images/makingof/makingof1.jpeg");
+    background-image: url("./Images/makingof/makingof1.jpeg");
     background-size: cover;
 }
 .img-2 { 
     grid-area: img-2;
-    background-image: url("./images/makingof/processo\ logo.png");
+    background-image: url("./Images/makingof/processo\ logo.png");
     background-size: cover;
 }
 .img-3 { 
     grid-area: img-3;
-    background-image: url("./images/makingof/photoshop.jpeg");
+    background-image: url("./Images/makingof/photoshop.jpeg");
     background-size: cover;
 }
 .img-4 { 
     grid-area: img-4;
-    background-image: url("./images/makingof/makingof2.jpeg");
+    background-image: url("./Images/makingof/makingof2.jpeg");
     background-size: cover;
 }
 
