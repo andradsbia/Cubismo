@@ -1,0 +1,369 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: #304D73;
+    position: fixed;
+}
+
+.menu>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 10px;
+
+}
+
+.container{
+    display: flex;
+    padding: 0 5%;
+}
+
+.container-banner{
+    padding: 50px 0 0 0;
+    background-image: url("./Images/banner_oficial.png");
+    height: 60vh;
+    background-size: cover;
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container.container-card{
+    background-color: #6b8bb5;
+    padding-top: 9px;
+    padding-bottom: 40px;
+}
+
+.container.history{
+    background-color: #f2e9bb;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.wrapper-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-history > .history-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history-content > .history-text{
+    width: 60%;
+}
+
+.history-content > .history-text > p{
+    font-size: 17px;
+    margin: 0;
+}
+
+.wrapper-cards-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 10px;
+}
+.card {
+    width: 25%;
+    background-color: #d9cbbf;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    box-shadow: 4px 3px 26px 2px rgba(0,0,0,0.5);
+}
+.card > p {
+    font-size: 15px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #304D73;
+    color: #ffffff;
+
+}
+
+.container.gallery {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #d9cbbf;
+}
+
+.container-footer > p{
+    margin: 0;
+}
+
+.container-footer > h4{
+    margin: 2px;
+}
+
+.wrapper-gallery, .wrapper-cards, .about-us, .about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper-gallery-content {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 0.9fr 0.9fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "gallery-1 . . ."
+      "gallery-1 . . ."
+      "gallery-10 gallery-10 . .";
+  }
+  
+.gallery-10 { 
+    grid-area: gallery-10; 
+}
+
+.gallery-1 { 
+    grid-area: gallery-1; 
+}
+  
+
+.about-us-container{
+    background-color: #f2e9bb;
+    padding-bottom: 20px;
+}
+
+.about-us-first, .about-us-last {
+    display: flex;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.about-us-first > div{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6b8bb5;
+    box-shadow: 7px 7px 6px -2px rgba(0,0,0,0.54);
+}
+
+.about-us-last > div{
+    width: 25%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6b8bb5;
+    box-shadow: 7px 7px 6px -2px rgba(0,0,0,0.54);
+}
+
+.about-us-first{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.about-us-last{
+    width: 80%;
+    justify-content: space-around;
+}
+
+.about-us-first > div > p, .about-us-last > div > p{
+    margin: 0px 0;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.about-us{
+    padding: 7px 0;
+}
+
+.container.artist-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: #f2e9bb;
+    padding-top: 10px;
+    }
+
+.artist-content {
+    display: flex;
+    padding: 10px 0;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-artist {
+    text-align: center;
+    width: 80%;
+}
+
+.about-artist > p, .about-artist > h5 {
+    margin: 4px 0;
+}
+
+.about-artist > p{
+    font-size: 16px;
+}
+
+.wrapper-artist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-gallery {
+    margin: 2px;
+}
+
+.gallery-1 {
+    background-image: url("./images/galeria/moradianatural.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-2 {
+    background-image: url("./images/galeria/folhares.jpg");
+    background-size: cover;
+}
+
+.gallery-3 {
+    background-image: url("./images/galeria/ooutro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-4 {
+    background-image: url("./images/galeria/realidadeparalela.jpg");
+    background-size: cover;
+}
+
+.gallery-5 {
+    background-image: url("./Images/galeria/cupre.jpg");
+    background-size: cover;
+}
+
+.gallery-6 {
+    background-image: url("./Images/galeria/cubohand.jpg");
+    background-size: cover;
+}
+
+.gallery-7 {
+    background-image: url("./images/galeria/humansintese.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-8 {
+    background-image: url("./Images/galeria/cecilia.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.gallery-9 {
+    background-image: url("./images/galeria/moradia.jpg");
+    background-size: cover;
+}
+
+.gallery-10 {
+    background-image: url("./images/galeria/respiro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1900px) {
+    .container{
+        padding: 0 20%;
+    }
+}
+
+span.legenda {
+    font-size: 14px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.history-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.making-of-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "teams img-1 img-3"
+      "teams img-2 img-4";
+      width: 100%;
+      height: 65vh;
+  }
+
+.teams { 
+    grid-area: teams; 
+    background-image: url("./Images/makingof/teams.jpeg");
+    background-size: cover;
+}
+.img-1 {
+    grid-area: img-1;
+    background-image: url("./images/makingof/makingof1.jpeg");
+    background-size: cover;
+}
+.img-2 { 
+    grid-area: img-2;
+    background-image: url("./images/makingof/processo\ logo.png");
+    background-size: cover;
+}
+.img-3 { 
+    grid-area: img-3;
+    background-image: url("./images/makingof/photoshop.jpeg");
+    background-size: cover;
+}
+.img-4 { 
+    grid-area: img-4;
+    background-image: url("./images/makingof/makingof2.jpeg");
+    background-size: cover;
+}
+
+.wrapper-making-of{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0;
+}
+
+.making-of-text {
+    padding-bottom: 40px;
+}
+
+.container.making-of {
+    background-color: #d9cbbf;
+}
